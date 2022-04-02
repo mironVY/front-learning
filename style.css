@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    list-style-type: none;
+}
+
+.wrapper {
+    background-color: #FFB873;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    background-color: 	#071D70;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+}
+.numb{
+    /*float: left;*/
+    width: 40px;
+    height: 40px;
+    background: #64DF85;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+
+}
+.operation {
+    /*float: left;*/
+    text-align: center;
+    background: #6E84D6;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px;
+    vertical-align: middle;
+    font-size: 25px;
+
+}
+
+.clear{
+    text-align: center;
+    background: #6E84D6;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.input{
+    margin-bottom: 1px;
+    background: #38DF64;
+    color: #24252f;
+    border-radius: 2px;
+
+    margin-left: 5px;
+}
+.equal{
+    text-align: center;
+    background: #6E84D6;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+.body {
+
+
+}
+.helper{
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
